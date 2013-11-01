@@ -2,7 +2,7 @@
 //  main.m
 //  uli
 //
-//  Created by Ethan Lin on 10/30/13.
+//  Created by Yi-Jheng Lin (yzlin) on 10/30/13.
 //  Copyright (c) 2013 github.com/yzlin. All rights reserved.
 //
 
