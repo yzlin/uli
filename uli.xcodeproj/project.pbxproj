@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30C6B6F182353D2002B00D4 /* NSScreen+ULIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C30C6B6E182353D2002B00D4 /* NSScreen+ULIUtils.m */; };
+		C30C6B72182355FA002B00D4 /* ULIOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C30C6B71182355FA002B00D4 /* ULIOverlayWindow.m */; };
+		C3B0818D1823618500A5DE2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0818B18235F4A00A5DE2B /* QuartzCore.framework */; };
+		C3B08190182377D600A5DE2B /* NSArray+ULIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0818F182377D600A5DE2B /* NSArray+ULIUtils.m */; };
 		C3CA11A118215AB000709A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA11A018215AB000709A03 /* Foundation.framework */; };
 		C3CA11A418215AB000709A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CA11A318215AB000709A03 /* main.m */; };
 		C3CA11A818215AB000709A03 /* uli.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CA11A718215AB000709A03 /* uli.1 */; };
+		C3CA11AF18215B0100709A03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA11AE18215B0100709A03 /* Cocoa.framework */; };
+		C3CA11B818216C3400709A03 /* ULIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CA11B718216C3400709A03 /* ULIAppDelegate.m */; };
+		C3CA11BB1821738C00709A03 /* ULIDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CA11BA1821738C00709A03 /* ULIDrawRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +33,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C30C6B6D182353D2002B00D4 /* NSScreen+ULIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+ULIUtils.h"; sourceTree = "<group>"; };
+		C30C6B6E182353D2002B00D4 /* NSScreen+ULIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+ULIUtils.m"; sourceTree = "<group>"; };
+		C30C6B70182355FA002B00D4 /* ULIOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULIOverlayWindow.h; sourceTree = "<group>"; };
+		C30C6B71182355FA002B00D4 /* ULIOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULIOverlayWindow.m; sourceTree = "<group>"; };
+		C3B0818B18235F4A00A5DE2B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3B0818E182377D600A5DE2B /* NSArray+ULIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ULIUtils.h"; sourceTree = "<group>"; };
+		C3B0818F182377D600A5DE2B /* NSArray+ULIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ULIUtils.m"; sourceTree = "<group>"; };
 		C3CA119D18215AB000709A03 /* uli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = uli; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA11A018215AB000709A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3CA11A318215AB000709A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3CA11A618215AB000709A03 /* uli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uli-Prefix.pch"; sourceTree = "<group>"; };
 		C3CA11A718215AB000709A03 /* uli.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = uli.1; sourceTree = "<group>"; };
+		C3CA11AE18215B0100709A03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3CA11B618216C3400709A03 /* ULIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULIAppDelegate.h; sourceTree = "<group>"; };
+		C3CA11B718216C3400709A03 /* ULIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULIAppDelegate.m; sourceTree = "<group>"; };
+		C3CA11B91821738C00709A03 /* ULIDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULIDrawRect.h; sourceTree = "<group>"; };
+		C3CA11BA1821738C00709A03 /* ULIDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULIDrawRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B0818D1823618500A5DE2B /* QuartzCore.framework in Frameworks */,
+				C3CA11AF18215B0100709A03 /* Cocoa.framework in Frameworks */,
 				C3CA11A118215AB000709A03 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +86,8 @@
 		C3CA119F18215AB000709A03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3B0818B18235F4A00A5DE2B /* QuartzCore.framework */,
+				C3CA11AE18215B0100709A03 /* Cocoa.framework */,
 				C3CA11A018215AB000709A03 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,6 +97,16 @@
 			isa = PBXGroup;
 			children = (
 				C3CA11A318215AB000709A03 /* main.m */,
+				C3CA11B618216C3400709A03 /* ULIAppDelegate.h */,
+				C3CA11B718216C3400709A03 /* ULIAppDelegate.m */,
+				C3CA11B91821738C00709A03 /* ULIDrawRect.h */,
+				C3CA11BA1821738C00709A03 /* ULIDrawRect.m */,
+				C30C6B70182355FA002B00D4 /* ULIOverlayWindow.h */,
+				C30C6B71182355FA002B00D4 /* ULIOverlayWindow.m */,
+				C30C6B6D182353D2002B00D4 /* NSScreen+ULIUtils.h */,
+				C30C6B6E182353D2002B00D4 /* NSScreen+ULIUtils.m */,
+				C3B0818E182377D600A5DE2B /* NSArray+ULIUtils.h */,
+				C3B0818F182377D600A5DE2B /* NSArray+ULIUtils.m */,
 				C3CA11A718215AB000709A03 /* uli.1 */,
 				C3CA11A518215AB000709A03 /* Supporting Files */,
 			);
@@ -139,7 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30C6B6F182353D2002B00D4 /* NSScreen+ULIUtils.m in Sources */,
+				C3B08190182377D600A5DE2B /* NSArray+ULIUtils.m in Sources */,
 				C3CA11A418215AB000709A03 /* main.m in Sources */,
+				C3CA11B818216C3400709A03 /* ULIAppDelegate.m in Sources */,
+				C30C6B72182355FA002B00D4 /* ULIOverlayWindow.m in Sources */,
+				C3CA11BB1821738C00709A03 /* ULIDrawRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +289,7 @@
 				C3CA11AD18215AB000709A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
