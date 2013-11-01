@@ -95,7 +95,9 @@ static CGRect ULICGRectFlip(NSRect rect)
     [textLayer addConstraint:[CAConstraint constraintWithAttribute:kCAConstraintMidX
                                                         relativeTo:@"superlayer"
                                                          attribute:kCAConstraintMidX]];
-    textLayer.foregroundColor = CGColorCreateGenericGray(0, 1);
+    CGColorRef cgcolor = CGColorCreateGenericGray(0, 1);
+    textLayer.foregroundColor = cgcolor;
+    CGColorRelease(cgcolor);
     textLayer.frame = layer.frame;
 
     [layer addSublayer:textLayer];
